@@ -1,0 +1,17 @@
+# Keil 编译产生的垃圾文件
+*.o
+*.obj
+*.lst
+*.dep
+*.map
+*.crf
+*.d
+*.bak
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+*.htm
+build/
+Objects/
+Listings/
+RTE/
