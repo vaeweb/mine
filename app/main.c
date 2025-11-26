@@ -683,6 +683,7 @@ static void application_timers_start(void)
 //Ö÷º¯Êý
 int main(void)
 {
+    NRF_LOG_INFO("Starting MPU9250 Service example.");
 
 	ble_uarts_client_context_t * p_client;
 	blcm_link_ctx_get(m_uarts.p_link_ctx_storage, m_conn_handle, (void *) &p_client);
